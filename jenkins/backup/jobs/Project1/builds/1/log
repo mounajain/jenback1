@@ -1,0 +1,26 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Project1
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/mounajain/mouna.git
+ > git init /var/lib/jenkins/workspace/Project1 # timeout=10
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git --version # timeout=10
+ > git fetch --tags --progress --depth=1 -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git fetch --tags --progress --depth=1 -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 35342d814a8492382da2303ae961e83ee68570a7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 35342d814a8492382da2303ae961e83ee68570a7 # timeout=10
+Commit message: "add"
+First time build. Skipping changelog.
+[Project1] $ /bin/sh -xe /tmp/jenkins5214887884932536187.sh
+Finished: SUCCESS

@@ -1,0 +1,11 @@
+Started on Jan 14, 2020 5:51:17 PM
+Started by event from 140.82.115.251 ⇒ http://18.191.227.235:8080/github-webhook/ on Tue Jan 14 17:51:17 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 35342d814a8492382da2303ae961e83ee68570a7 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/mounajain/mouna.git # timeout=10
+Found 1 remote heads on https://github.com/mounajain/mouna.git
+[poll] Latest remote head revision on refs/heads/master is: ce18af41bd9a9a9d9c91a830d9bfde30f10a2d08
+Done. Took 0.24 sec
+Changes found
