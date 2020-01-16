@@ -1,0 +1,97 @@
+SSHLauncher{host='3.19.239.31', port=22, credentialsId='a4608c5a-ffb4-4284-8370-985825e24696', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[01/16/20 07:08:22] [SSH] Opening SSH connection to 3.19.239.31:22.
+[01/16/20 07:08:23] [SSH] SSH host key matched the key required for this connection. Connection will be allowed.
+[01/16/20 07:08:23] [SSH] Authentication successful.
+[01/16/20 07:08:23] [SSH] The remote user's environment is:
+BASH=/usr/bin/bash
+BASHOPTS=cmdhist:complete_fullquote:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASHRCSOURCED=Y
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="4" [2]="19" [3]="1" [4]="release" [5]="x86_64-redhat-linux-gnu")
+BASH_VERSION='4.4.19(1)-release'
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DIRSTACK=()
+EUID=1000
+GROUPS=()
+HOME=/home/ec2-user
+HOSTNAME=ip-172-31-29-29.us-east-2.compute.internal
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+LANG=en_US.UTF-8
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LOGNAME=ec2-user
+MACHTYPE=x86_64-redhat-linux-gnu
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+PIPESTATUS=([0]="0")
+PPID=1319
+PS4='+ '
+PWD=/home/ec2-user
+SELINUX_LEVEL_REQUESTED=
+SELINUX_ROLE_REQUESTED=
+SELINUX_USE_CURRENT_RANGE=
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments
+SHLVL=1
+SSH_CLIENT='18.191.133.97 42952 22'
+SSH_CONNECTION='18.191.133.97 42952 172.31.29.29 22'
+TERM=dumb
+UID=1000
+USER=ec2-user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SESSION_ID=3
+_=PATH
+gawklibpath_append () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$AWKLIBPATH:$*"
+}
+gawklibpath_default () 
+{ 
+    unset AWKLIBPATH;
+    export AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
+}
+gawklibpath_prepend () 
+{ 
+    [ -z "$AWKLIBPATH" ] && AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`;
+    export AWKLIBPATH="$*:$AWKLIBPATH"
+}
+gawkpath_append () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$AWKPATH:$*"
+}
+gawkpath_default () 
+{ 
+    unset AWKPATH;
+    export AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
+}
+gawkpath_prepend () 
+{ 
+    [ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`;
+    export AWKPATH="$*:$AWKPATH"
+}
+[01/16/20 07:08:23] [SSH] Checking java version of /home/ec2-user/jenkins/jdk/bin/java
+Couldn't figure out the Java version of /home/ec2-user/jenkins/jdk/bin/java
+bash: /home/ec2-user/jenkins/jdk/bin/java: No such file or directory
+
+[01/16/20 07:08:23] [SSH] Checking java version of java
+[01/16/20 07:08:23] [SSH] java -version returned 1.8.0_232.
+[01/16/20 07:08:23] [SSH] Starting sftp client.
+[01/16/20 07:08:23] [SSH] Copying latest remoting.jar...
+Source agent hash is 1634B1F6F7BAC4296F2A1693F1AE2D93. Installed agent hash is 1634B1F6F7BAC4296F2A1693F1AE2D93
+Verified agent jar. No update is necessary.
+Expanded the channel window size to 4MB
+[01/16/20 07:08:23] [SSH] Starting agent process: cd "/home/ec2-user/jenkins" && java  -jar remoting.jar -workDir /home/ec2-user/jenkins -jar-cache /home/ec2-user/jenkins/remoting/jarCache
+Jan 16, 2020 7:08:24 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/ec2-user/jenkins/remoting as a remoting work directory
+Jan 16, 2020 7:08:24 AM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /home/ec2-user/jenkins/remoting
