@@ -1,0 +1,10 @@
+Started on Jan 14, 2020 2:18:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 35342d814a8492382da2303ae961e83ee68570a7 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/mounajain/mouna.git # timeout=10
+Found 1 remote heads on https://github.com/mounajain/mouna.git
+[poll] Latest remote head revision on refs/heads/master is: 35342d814a8492382da2303ae961e83ee68570a7 - already built by 2
+Done. Took 0.12 sec
+No changes

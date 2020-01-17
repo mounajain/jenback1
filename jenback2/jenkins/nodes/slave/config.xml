@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>slave</name>
+  <description></description>
+  <remoteFS>/home/ec2-user/jenkins</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.31.0">
+    <host>3.19.239.31</host>
+    <port>22</port>
+    <credentialsId>a4608c5a-ffb4-4284-8370-985825e24696</credentialsId>
+    <launchTimeoutSeconds>210</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy">
+      <key>
+        <algorithm>ssh-rsa</algorithm>
+        <key>AAAAB3NzaC1yc2EAAAADAQABAAABAQCvjK9HFaSYwBjdw7wnxb4dmAlSs37OYo4ntujSuk+oZL3o
+eFp7ekyVg5aYu/1pvltfQ3gVs23PinVZrjBhvrKYXOiP1ajxIetDdYXT7+ykN9aE4AS5BbG4JjAD
+52zygN2v0DKNbrqYpKFnuCo/377bOlFywHck/S0brEzkEGQce23BxnYbI0gHTi4A1uY8Ru3Aarv1
+Mhx9sksGr6Cod1MHGhO0sv9O0b+gc5kwH4Hyh3FuAQEdYipfVhqf0Hv1X/w3SwgIQMOUSKbj62HE
+W3Ng0IlsYVOl6qFRd9d2g8ZAohplzJEZzLMHnCt0X9L+OcKgMewVnd9azMfbOhTUWmPH</key>
+      </key>
+    </sshHostKeyVerificationStrategy>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>slave</label>
+  <nodeProperties/>
+</slave>

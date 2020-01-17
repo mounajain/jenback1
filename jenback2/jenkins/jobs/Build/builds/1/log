@@ -1,0 +1,26 @@
+Started by user [8mha:////4GgDO/tZKPDgq9BQLBl94cjAAe7ML9y/M6FBxCQGxrq+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL93PzSvMSsxMw8AOY7lpPEAAAA[0mMounajain
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build
+No credentials specified
+Cloning the remote Git repository
+Using shallow clone with depth 1
+Cloning repository https://github.com/mounajain/mouna.git
+ > git init /var/lib/jenkins/workspace/Build # timeout=10
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git --version # timeout=10
+ > git fetch --tags --progress --depth=1 -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+Using shallow fetch with depth 1
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git fetch --tags --progress --depth=1 -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 35342d814a8492382da2303ae961e83ee68570a7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 35342d814a8492382da2303ae961e83ee68570a7 # timeout=10
+Commit message: "add"
+First time build. Skipping changelog.
+[Build] $ /bin/sh -xe /tmp/jenkins2814116057327189717.sh
+Finished: SUCCESS

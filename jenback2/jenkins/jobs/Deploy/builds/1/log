@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:////4GTGKM2IOofD8UXcU9EKvxxYO7Z8PtkvrbOBGjT2U3SyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4HjIV9Y02j3HM3KDiJ+3/hjM4TrBYhAmeyCKfUM7tpzaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfSMAHA/Tt8EAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4GgDO/tZKPDgq9BQLBl94cjAAe7ML9y/M6FBxCQGxrq+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL93PzSvMSsxMw8AOY7lpPEAAAA[0mMounajain
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/mounajain/mouna.git
+ > git init /var/lib/jenkins/workspace/Deploy # timeout=10
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git fetch --tags --progress -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 35342d814a8492382da2303ae961e83ee68570a7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 35342d814a8492382da2303ae961e83ee68570a7 # timeout=10
+Commit message: "add"
+First time build. Skipping changelog.
+[Deploy] $ /bin/sh -xe /tmp/jenkins7405216059281697081.sh
+Finished: SUCCESS

@@ -1,0 +1,25 @@
+Started by upstream project "[8mha:////4GTGKM2IOofD8UXcU9EKvxxYO7Z8PtkvrbOBGjT2U3SyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4JuiK6zvqiNap8Dxol2dL9lQqiI5qpH6+aoxTus/UHhbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfRMAKaqwXsEAAAA=[0m4
+originally caused by:
+ Started by GitHub push by mounajain
+Started by upstream project "[8mha:////4GTGKM2IOofD8UXcU9EKvxxYO7Z8PtkvrbOBGjT2U3SyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4JuiK6zvqiNap8Dxol2dL9lQqiI5qpH6+aoxTus/UHhbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfRMAKaqwXsEAAAA=[0m4
+originally caused by:
+ Started by GitHub push by mounajain
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mounajain/mouna.git # timeout=10
+Fetching upstream changes from https://github.com/mounajain/mouna.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/mounajain/mouna.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 78e1a8699a34d697c989fb6add431e65105651b5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 78e1a8699a34d697c989fb6add431e65105651b5 # timeout=10
+Commit message: "up3"
+ > git rev-list --no-walk 78e1a8699a34d697c989fb6add431e65105651b5 # timeout=10
+[Deploy] $ /bin/sh -xe /tmp/jenkins5014093282097841441.sh
+Triggering a new build of [8mha:////4Cs+UjjR7Uzxg3kY8E3if/3OJ2ECavmHdK/1fffEcOsuAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2S1OISfQCnUQg9vwAAAA==[0mtest
+Finished: SUCCESS
