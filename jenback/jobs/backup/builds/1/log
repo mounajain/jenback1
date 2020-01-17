@@ -1,0 +1,24 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4JDehn0qtYTCVU77kP8XpkTVlKROrfUhELrrM1MPvTlCAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /home/ec2-user/jenkins/workspace/backup
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/mounajain/jenbackup.git
+ > git init /home/ec2-user/jenkins/workspace/backup # timeout=10
+Fetching upstream changes from https://github.com/mounajain/jenbackup.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/mounajain/jenbackup.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/jenbackup.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mounajain/jenbackup.git # timeout=10
+Fetching upstream changes from https://github.com/mounajain/jenbackup.git
+ > git fetch --tags --progress -- https://github.com/mounajain/jenbackup.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 73a7e4fa8359ea4de403d4dcc3d834038befaf69 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 73a7e4fa8359ea4de403d4dcc3d834038befaf69 # timeout=10
+Commit message: "commiting"
+First time build. Skipping changelog.
+[backup] $ /bin/sh -xe /tmp/jenkins350488128381569333.sh
+Finished: SUCCESS

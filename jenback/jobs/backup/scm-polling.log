@@ -1,0 +1,10 @@
+Started on Jan 16, 2020 9:14:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 73a7e4fa8359ea4de403d4dcc3d834038befaf69 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/mounajain/jenbackup.git # timeout=10
+Found 1 remote heads on https://github.com/mounajain/jenbackup.git
+[poll] Latest remote head revision on refs/heads/master is: 73a7e4fa8359ea4de403d4dcc3d834038befaf69 - already built by 1
+Done. Took 0.77 sec
+No changes
